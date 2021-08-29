@@ -8,7 +8,7 @@ const fs = require("fs");
 const OUTPUT_DIR = path.resolve(__dirname, "output")
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
-const render = require(".src/page-template.js");
+const render = require("./src/page-template.js");
 
 const teamMembers = [];
 const idArray = [];
@@ -74,7 +74,7 @@ function appMenu() {
             const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.managerOfficeNumber);
             teamMembers.push(manager);
             idArray.push(answers.managerId);
-            creatTeam();
+            createTeam();
         });
     }
 
