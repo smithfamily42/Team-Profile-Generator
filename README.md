@@ -5,7 +5,7 @@ Command line app that takes information about employees and generates and HTML w
 Creating app to build webpages for team members and their info
 
 ## Video Link
-
+https://drive.google.com/file/d/1RypAHkAE4mouOzhnTloElwCeRrFVUMHP/view
 
 ### Technologies used
 Node.js (inquirer)
