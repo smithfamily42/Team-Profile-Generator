@@ -138,11 +138,11 @@ function appMenu() {
             },
             {
                 type: "input",
-                name: "engineerEamil",
+                name: "engineerEmail",
                 message: "What is your engineer's email?",
                 validate: answer => {
                     const pass = answer.match(
-                        /\S+@\S+\.|S+/
+                        /\S+@\S+\.\S+/
                     );
                     if(pass) {
                         return true;
